@@ -41,12 +41,12 @@ a{
 }
 
 .nav .logo a h2{
+    font-size: 1.5rem;
     color: white;
     font-weight: normal;
 }
 
 .nav .logo a h2 span{
-    
     color: rgb(3, 169, 169);
 }
 
@@ -178,8 +178,20 @@ a{
 
 @media only screen and (max-width: 600px) {
     .services{
-        width: 90%;
+        width: 80%;
         margin: auto;
+    }
+
+    .section1{
+        height: 15rem;
+    }
+
+    .nav .logo a h2{
+        font-size: 1rem;
+    }
+
+    .nav ul li a{
+        font-size: 0.8rem;
     }
 }
   
