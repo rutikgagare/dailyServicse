@@ -198,6 +198,10 @@ a{
     .nav ul{
         gap: 0.7rem;
     }
+
+    .services__inner{
+        gap: 0.7rem;
+    }
 }
   
   
