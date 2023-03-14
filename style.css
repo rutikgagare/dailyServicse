@@ -180,6 +180,7 @@ a{
     .services{
         width: 85%;
         margin: auto;
+        top: -6rem;
     }
 
     .section1{
