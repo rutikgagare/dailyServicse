@@ -175,6 +175,12 @@ a{
 .item h3{
     font-size: 1.4rem;
 }
+
+@media only screen and (max-width: 600px) {
+    .service{
+        width: 90%;
+    }
+  }
   
   
   
