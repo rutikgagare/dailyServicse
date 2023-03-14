@@ -177,10 +177,10 @@ a{
 }
 
 @media only screen and (max-width: 600px) {
-    .service{
-        width: 90%;
+    .services{
+        width: 95%;
     }
-  }
+}
   
   
   
