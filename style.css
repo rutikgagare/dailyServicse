@@ -178,7 +178,7 @@ a{
 
 @media only screen and (max-width: 600px) {
     .services{
-        width: 80%;
+        width: 85%;
         margin: auto;
     }
 
@@ -187,13 +187,18 @@ a{
     }
 
     .nav .logo a h2{
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 
     .nav ul li a{
         font-size: 0.8rem;
     }
+
+    .nav ul{
+        gap: 0.7rem;
+    }
 }
   
   
+
   
