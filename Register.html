@@ -11,28 +11,31 @@
     <div class="main">
         <div class="loginForm">
             <h2>Registration</h2>
-            <form action="login.html">
+
+            <form action="./login.html" name="myForm" onsubmit="return validate()">
                 <label>First Name</label>
-                <input type="text" required>
+                <input type="text" name="fname">
 
                 <label>Last Name</label>
-                <input type="text" required>
+                <input type="text" name="lname">
 
                 <label>Email</label>
-                <input type="email" required>
+                <input type="email" name="email">
 
                 <label>Mobile Number</label>
-                <input type="number" required>
+                <input type="text" name="mobileno">
 
                 <label>Password</label>
-                <input type="Password" required>
+                <input type="Password" name="password">
 
-                <button>Register <i class="fa-regular fa-user"></i></button>
+                <button type="submit">Register <i class="fa-regular fa-user"></i></button>
 
                 <span><a href="./Login.html">Already have a account</a></span>
             </form>
         </div>
     </div>
+
+    <script src="validation.js"></script>
     <script src="https://kit.fontawesome.com/3d43d3975e.js" crossorigin="anonymous"></script>
 </body>
 </html>
