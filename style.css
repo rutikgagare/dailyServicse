@@ -206,6 +206,10 @@ a{
     .service{
         gap: 0.4rem;
     }
+
+    .display{
+        width: 100% ;
+    }
 }
   
   
