@@ -133,7 +133,7 @@ a{
 }
 
 .display{
-    width: 10%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -146,7 +146,8 @@ a{
     top: 4rem;
     padding: 1rem;
     z-index: 5;
-    background-color: rgb(3, 120, 136);
+    background-color: rgb(102, 35, 165);
+    opacity: 0.6;
     margin-bottom: 1rem;
     color: white;
 }
