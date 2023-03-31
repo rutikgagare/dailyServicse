@@ -19,7 +19,7 @@ function validate(){
         alert("Last Name must be filled out");
         return false;
     }
-    else if(email = "" || !(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.match(email))){
+    else if(email = "" || !(email.includes('@')) || !(email.includes('gmail.com'))){
         alert("Enter the correct Email");
         return false;
     }
@@ -27,7 +27,7 @@ function validate(){
         alert("Enter the correct Mobile Number");
         return false;
     }
-    else if(pass.length < 8 || pass.length > 12 || !pass.match(upperCaseLetters) || !pass.match(lowerCaseLetters) || !pass.match(numbers) ){
+    else if(pass.length < 8 || pass.length > 12){
         alert("password must contain 1 lowecase letter, 1 uppercase letter and number length should be between 8 and 12");
         return false;
     }

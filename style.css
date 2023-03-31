@@ -150,6 +150,7 @@ a{
     opacity: 0.6;
     margin-bottom: 1rem;
     color: white;
+    z-index: 100;
 }
 
 
