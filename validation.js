@@ -28,7 +28,7 @@ function validate(){
         return false;
     }
     else if(pass.length < 8 || pass.length > 12){
-        alert("password must contain 1 lowecase letter, 1 uppercase letter and number length should be between 8 and 12");
+        alert("password  length should be between 8 and 12");
         return false;
     }
     else{
