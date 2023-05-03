@@ -1,10 +1,4 @@
 function validate(){
-
-    var mailformat = /^w+([.-]?w+)*@w+([.-]?w+)*(.w{2,3})+$/;
-    var lowerCaseLetters = /[a-z]/g;
-    var upperCaseLetters = /[A-Z]/g;
-    var numbers = /[0-9]/g;
-
     let firstName = document.forms["myForm"]["fname"].value;
     let lastName = document.forms["myForm"]["lname"].value;
     let email = document.forms["myForm"]["email"].value;
