@@ -12,21 +12,21 @@
         <div class="loginForm">
             <h2>Registration</h2>
 
-            <form action="./login.html" name="myForm" onsubmit="return validate()">
-                <label>First Name</label>
-                <input type="text" name="fname">
-
-                <label>Last Name</label>
-                <input type="text" name="lname">
+            <form action="./register.php" method="post">
+                <label>Name</label>
+                <input type="text" name="name" required>
 
                 <label>Email</label>
-                <input type="text" name="email">
+                <input type="email" name="email" required>
 
                 <label>Mobile Number</label>
-                <input type="text" name="mobileno">
+                <input type="text" name="phone" required>
+
+                <label>City</label>
+                <input type="text" name="city" required>
 
                 <label>Password</label>
-                <input type="text" name="password">
+                <input type="text" name="password" required>
 
                 <button type="submit">Register <i class="fa-regular fa-user"></i></button>
 

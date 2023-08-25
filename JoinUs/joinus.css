@@ -4,12 +4,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins';
 }
 
-a{
-    text-decoration: none;
-}
 
 .main{
     background-color: rgb(41, 40, 40);
@@ -21,45 +18,40 @@ a{
     padding: 1rem;
 }
 
-.loginForm{
+.userInput{
     border-radius: 0.5rem;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-    padding: 2rem;
-    width: 30%;
+    padding: 0.2rem 2rem;
+    width: 35%;
     display: flex;
     flex-direction: column;
     background-color: white;
 }
 
-.loginForm h2{
-    font-size: 2rem;
-    text-align: center;
-    margin: 1rem 0;
-}
-
-.loginForm form{
-    display: flex;
-    flex-direction: column;
-}
-
-.loginForm input{
-    width: 100%;
+.userInput input{
     display: block;
-    margin: 0.5rem 0;
-    padding: 0.3rem;
-    outline: none;
-    border-radius: 0.2rem;
-    font-size: 1rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.3rem;
+    padding: 0.2rem 1rem;
+    width: 100%;
 }
 
-.loginForm label{
-    font-size: 1.1rem;
+.userInput select{
+    width: 100%;
+    padding: 0.3rem 1rem;
+    margin-top: 0.3rem;
+    margin-bottom: 0.5rem;
 }
 
-.loginForm button{
+.userInput h2{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.userInput button{
     width: 50%;
     margin: 1rem 0;
-    padding: 0.8rem 1rem;
+    padding: 0.5rem 1rem;
     font-size: 1.1rem;
     background-color: rgb(5, 158, 158);
     outline: none;
@@ -68,10 +60,8 @@ a{
     color: white;
 }
 
-
-
 @media only screen and (max-width: 600px) {
-    .loginForm{
+    .userInput{
         width: 94%;
     }
 }
